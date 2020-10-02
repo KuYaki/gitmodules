@@ -1,10 +1,10 @@
 # gitmodules
 This project was developed to avoid problems with gitmodules importing in Python projects.
 
-##Dependencies
+## Dependencies
 This project has no any dependencies, it uses only 'os' and 'sys' standard libraries.
 
-##Usage
+## Usage
 Install this project via PyPi:
 
 ```
@@ -19,15 +19,15 @@ import my_git_submodule_1
 import my_git_submodule_2
 ```
 
-##Example
+## Example
 
 
-##How does it work
+## How does it work
 Right while importing this module tries to find .gitmodules file in your project, 
 parse it and append all the git submodules directories to the 'sys.path'. 
 After what it recursively repeat this action for all the git submodules.
 
-##Important notes
+## Important notes
 This module doesnt change current work directory, so that if some submodule 
 was assumed to work with its root folder via current work directory it will fail.
 
