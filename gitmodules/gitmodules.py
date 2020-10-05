@@ -2,7 +2,7 @@ import sys
 import os
 
 
-def extend_paths(cwd="."):
+def extend_paths(cwd=None):
     """
     This function tries to find .gitmodules file in your project,
     parse it and append all the git submodules directories to the 'sys.path'.
@@ -10,6 +10,8 @@ def extend_paths(cwd="."):
     :param cwd: current work directory where the '.gitmodules' file should be placed
     :return: None
     """
+    if cwd is None:
+        cwd = sys.path[0]
     git_modules_file_path = os.path.join(cwd, ".gitmodules")
     if os.path.exists(git_modules_file_path):
         with open(git_modules_file_path) as f:
