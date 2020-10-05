@@ -36,5 +36,5 @@ You don't need to call any functions from the 'gitmodules' to make it work and i
 
 ```python
 # noinspection PyUnresolvedReferences
-import gitmodules 
+import gitmodules
 ```
