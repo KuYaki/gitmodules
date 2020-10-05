@@ -20,6 +20,3 @@ def extend_paths(cwd="."):
                     if os.path.exists(git_module_path):
                         sys.path.append(git_module_path)
                         extend_paths(git_module_path)
-
-
-extend_paths()
