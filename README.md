@@ -20,7 +20,9 @@ import my_git_submodule_2
 ```
 
 ## Example
+Here is an example repository with a problem explanation in its readme.
 
+https://github.com/KuYaki/gitmodules_example_a
 
 ## How does it work
 Right while importing this module tries to find .gitmodules file in your project, 
