@@ -11,7 +11,7 @@ setup(
   author=gitmodules.__author__,
   author_email='kuzma.yakimets@huawei.com',
   url='https://github.com/kuyaki/gitmodules',
-  download_url='https://github.com/kuyaki/gitmodules/archive/v_01.tar.gz',
+  download_url='https://github.com/kuyaki/gitmodules/archive/v0.0.1.tar.gz',
   keywords=['git', 'submodules', 'submodule', 'module', 'gitmodules', 'gitmodule', 'python', 'import'],
   classifiers=[
     'Development Status :: 3 - Alpha',  # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable"
