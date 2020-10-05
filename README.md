@@ -28,7 +28,7 @@ parse it and append all the git submodules directories to the 'sys.path'.
 After what it recursively repeat this action for all the git submodules.
 
 ## Important notes
-This module doesnt change current work directory, so that if some submodule 
+This module doesn't change current work directory, so that if some submodule 
 was assumed to work with its root folder via current work directory it will fail.
 
 You don't need to call any functions from the 'gitmodules' to make it work and it may call
